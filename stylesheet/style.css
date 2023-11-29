@@ -1,0 +1,26 @@
+.ml-3 {
+    margin-left: 1.75rem !important;
+  }
+
+.Search-rounded {
+    border-radius: 12rem;
+    }
+.navbar{
+    background-color: black;
+}
+.profile-dropdown{
+    background-color:transparent;
+    text-decoration: none;
+
+}
+.profile-dropdown-img{
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    width: 37px;
+    border-width: 0;
+    vertical-align: bottom;
+}
+.nav-txt{
+    text-decoration: none;
+    color: #ffffff;
+}
