@@ -24,3 +24,13 @@
     text-decoration: none;
     color: #ffffff;
 }
+.card-title {
+    text-transform: uppercase;
+  }
+
+.card-img-top{
+    height: 234px;
+}
+.card{
+    border: 0;
+}
