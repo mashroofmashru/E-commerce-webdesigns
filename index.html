@@ -4,18 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>usr</title>
-
+  <title>e-shop</title>
+  <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/previews/005/100/207/original/shoping-bag-icon-free-vector.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
   <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="...">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <!-- header -->
+  <!-------- header -------->
   <section>
     <div class="header">
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -61,7 +63,7 @@
       </nav>
     </div>
   </section>
-  <!-- slider -->
+  <!------ slider ------->
   <section>
     <div id="carouselExample" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -88,57 +90,153 @@
       </a>
     </div>
   </section>
-  <!-- category card -->
+  <!----- category card ----->
   <section>
     <div class="container pt-4">
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card image cap">
+            <img class="card-img-top"
+              src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Laptops and Computers</h5>
-              <p class="card-text">Powerful computing solutions for work, play, and creativity. Explore cutting-edge technology today.</p>
+              <p class="card-text">Powerful computing solutions for work, play, and creativity. Explore cutting-edge
+                technology today.</p>
               <a href="#" class="btn btn-primary">&#10148; Explore Now</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1625467096769-fefb5ebdb54c?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card image cap">
+            <img class="card-img-top"
+              src="https://images.unsplash.com/photo-1625467096769-fefb5ebdb54c?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Mobile Phones & Accessories</h5>
-              <p class="card-text">Stay connected in style with the latest smartphones and accessories. Elevate your mobile experience.</p>
+              <p class="card-text">Stay connected in style with the latest smartphones and accessories. Elevate your
+                mobile experience.</p>
               <a href="#" class="btn btn-primary">&#10148; Explore Now</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1610196600828-517131fddddd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card image cap">
+            <img class="card-img-top"
+              src="https://images.unsplash.com/photo-1610196600828-517131fddddd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Sound and Wearables</h5>
-              <p class="card-text">Immerse in superior sound and smart style. Explore headphones, speakers, smartwatches, and fitness tech.</p>
+              <p class="card-text">Immerse in superior sound and smart style. Explore headphones, speakers,
+                smartwatches, and fitness tech.</p>
               <a href="#" class="btn btn-primary">&#10148; Explore Now</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script>
-      // JavaScript to display only the first 10 words using class
-      var elements = document.getElementsByClassName("card-text");
-      
-      for (var i = 0; i < elements.length; i++) {
-        var fullText = elements[i].textContent;
-        var trimmedText = fullText.split(/\s+/).slice(0, 15).join(" ");
-        elements[i].textContent = trimmedText + '...';
-      }
-    </script>
+  </section>
+  <!------ featured product ------>
+  <section>
+    <div class="container pt-5">
+      <h5 class="card-title text-center"><b>fearuted products</b></h5>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://m.media-amazon.com/images/I/31OylC+7FrL._SX342_SY445_.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <a href="#" class="font-bold h5">
+                  <span class="featured-prod-name">Apple iPhone 14 (128 GB)-(Product) RED</span>
+                </a>
+                <div>
+                  <span class="sale-price font-semibold">₹61,999</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://m.media-amazon.com/images/I/41ntGH88Z2L._SX300_SY300_QL70_FMwebp_.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <a href="#" class="font-bold h5">
+                  <span class="featured-prod-name">Samsung Galaxy S22 Ultra 5G (12GB,256GB)</span>
+                </a>
+                <div>
+                  <span class="sale-price font-semibold">₹84,999</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://m.media-amazon.com/images/I/41MobtLSyeL._SX300_SY300_QL70_FMwebp_.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <a href="#" class="font-bold h5">
+                  <span class="featured-prod-name">MSI Titan GT77 HX, Intel 13th Gen</span>
+                </a>
+                <div>
+                  <span class="sale-price font-semibold">₹1,23,990</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://m.media-amazon.com/images/I/81cZxMfHubS._SX522_.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <a href="#" class="font-bold h5">
+                  <span class="featured-prod-name">BANG & OLUFSEN H95 Bluetooth</span>
+                </a>
+                <div>
+                  <span class="sale-price font-semibold">₹1,38,730</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Footer Section -->
+  <section>
+    <footer class="bg-dark text-light ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center py-2">
+            <!-- socialmedia icons -->
+            <a href="https://www.linkedin.com/in/mashroof-mashru-84615a290/" class="text-light"><i class="fab fa-linkedin fa-lg mr-2"></i></a>
+            <a href="https://github.com/mashroofmashru" class="text-light"><i class="fab fa-github fa-lg mr-2"></i></a>
+            <a href="https://twitter.com/" class="text-light"><i class="fab fa-twitter fa-lg"></i></a>
+            <!-- copyright -->
+            <p class="mb-0 text-center">&copy; 2023 Mashroofmashru. All rights reserved.</p>
+          </div>
+        </div>
+    </footer>
+
   </section>
 
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // JavaScript to display only the first 10 words using class
+    var elements = document.getElementsByClassName("card-text");
+
+    for (var i = 0; i < elements.length; i++) {
+      var fullText = elements[i].textContent;
+      var trimmedText = fullText.split(/\s+/).slice(0, 15).join(" ");
+      elements[i].textContent = trimmedText + '...';
+    }
+  </script>
 </body>
 
 </html>

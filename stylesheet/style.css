@@ -1,3 +1,4 @@
+
 .ml-3 {
     margin-left: 1.75rem !important;
   }
@@ -33,4 +34,15 @@
 }
 .card{
     border: 0;
+}
+.featured-prod-name{
+    text-decoration: none;
+    color: #000000;
+}
+.social-icons {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+.bg-dark{
+    background-color: #373737 !important;
 }
