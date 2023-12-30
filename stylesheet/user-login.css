@@ -20,3 +20,8 @@ body {
 .copy-txt{
     font-size: 10px;
 }
+
+.login-logo{
+    height: 65px;
+    width: auto;
+}

@@ -1,10 +1,7 @@
-
-.ml-3 {
-    margin-left: 1.75rem !important;
-  }
-
 .Search-rounded {
-    border-radius: 12rem;
+  border-radius: 12rem;
+  height: 30px;
+  width: 150px;
     }
 .navbar{
     background-color: black;
@@ -43,9 +40,7 @@
     font-size: 24px;
     margin-right: 10px;
   }
-.bg-dark{
-    background-color: #373737 !important;
-}
+
 .background-radial-gradient {
     background-color: hsl(218, 41%, 15%);
     background-image: radial-gradient(650px circle at 0% 0%,
@@ -85,3 +80,8 @@
     background-color: hsla(0, 0%, 100%, 0.9) !important;
     backdrop-filter: saturate(200%) blur(25px);
   }
+
+  .home-logo{
+    height: 45px;
+    width: auto;
+}
