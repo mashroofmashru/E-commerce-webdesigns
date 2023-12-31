@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-shop</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://static.vecteezy.com/system/resources/previews/005/100/207/original/shoping-bag-icon-free-vector.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="../stylesheet/style.css">
+    <link rel="stylesheet" href="../stylesheet/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="...">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <img class="header-logo navbar-brand" src="../images/Logo.png" alt="">
+                    <div>
+                        <form class="d-flex">
+                            <input class="form-control me-2 Search-rounded" type="search" placeholder="Search"
+                                aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ml-3">
+                                <a class="nav-link active" aria-current="page" href="../../Ecommerce/index.html"><b>Home</b></a>
+                            </li>
+                            <li class="nav-item ml-3">
+                                <a class="nav-link active" href="#"><b>Categories</b></a>
+                            </li>
+                            <li class="nav-item ml-3">
+                                <a class="nav-link active" href="#"><b>Cart</b></a>
+                            </li>
+                            <li class="nav-item ml-3">
+                                <a class="nav-link active" href="#"><b>Orders</b></a>
+                            </li>
+                        </ul>
+                        <div class="nav-item ml-3">
+                            <a type="button" class="profile-dropdown" data-bs-toggle="dropdown">
+                                <img class=" profile-dropdown-img"
+                                    src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-social-media-user-vector-default-avatar-profile-icon-social-media-user-vector-portrait-176194876.jpg"
+                                    alt="image">
+                            </a>
+                            <div class="dropdown">
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                    <li><a class="dropdown-item" href="../user/user-login.html">LogIn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- cart items -->
+    <section>
+        <div class="row">
+            <div class="card mt-1">
+                <div class="row">
+                    <div class="col-md-8 cart">
+                        <div class="title">
+                            <div class="row">
+                                <div class="col">
+                                    <h4><b>Shopping Cart</b></h4>
+                                </div>
+                                <div class="col align-self-center text-right text-muted">3 items</div>
+                            </div>
+                        </div>
+                        <!-- cartpro1 -->
+                        <div class="row border-top border-bottom">
+                            <div class="row main align-items-center">
+                                <div class="col-2">
+                                    <img class="img-fluid"
+                                        src="https://m.media-amazon.com/images/I/31OylC+7FrL._SX342_SY445_.jpg">
+                                </div>
+                                <div class="col">
+                                    <div class="row text-muted">Apple iPhone 14 (128 GB)-(Product) RED</div>
+                                    <div class="row">MobilePhone</div>
+                                </div>
+                                <div class="col">
+                                    <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                                </div>
+                                <div class="col">&#8377; 61,999 <span class="close"><a href="">&#10005;</a></span></div>
+                            </div>
+                        </div>
+                        <!-- cartpro2 -->
+                        <div class="row border-top border-bottom">
+                            <div class="row main align-items-center">
+                                <div class="col-2">
+                                    <img class="img-fluid"
+                                        src="https://m.media-amazon.com/images/I/41ntGH88Z2L._SX300_SY300_QL70_FMwebp_.jpg">
+                                </div>
+                                <div class="col">
+                                    <div class="row text-muted">Samsung Galaxy S22 Ultra 5G (12GB,256GB)</div>
+                                    <div class="row">Mobilephone</div>
+                                </div>
+                                <div class="col">
+                                    <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                                </div>
+                                <div class="col">&#8377; 84,999 <span class="close"><a href="">&#10005;</a></span></div>
+                            </div>
+                        </div>
+                        <!-- cartpro3 -->
+                        <div class="row border-top border-bottom">
+                            <div class="row main align-items-center">
+                                <div class="col-2">
+                                    <img class="img-fluid"
+                                        src="https://m.media-amazon.com/images/I/41MobtLSyeL._SX300_SY300_QL70_FMwebp_.jpg">
+                                </div>
+                                <div class="col">
+                                    <div class="row text-muted">MSI Titan GT77 HX, Intel 13th Gen</div>
+                                    <div class="row">Laptop</div>
+                                </div>
+                                <div class="col">
+                                    <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                                </div>
+                                <div class="col">&#8377; 1,23,990 <span class="close">&#10005;</span></div>
+                            </div>
+                        </div>
+                        <!-- cartpro4 -->
+                        <div class="row border-top border-bottom">
+                            <div class="row main align-items-center">
+                                <div class="col-2">
+                                    <img class="img-fluid"
+                                        src="https://m.media-amazon.com/images/I/81cZxMfHubS._SX522_.jpg">
+                                </div>
+                                <div class="col">
+                                    <div class="row text-muted">BANG & OLUFSEN H95 Bluetooth</div>
+                                    <div class="row">Headphone</div>
+                                </div>
+                                <div class="col">
+                                    <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                                </div>
+                                <div class="col">&#8377; 1,38,730 <span class="close">&#10005;</span></div>
+                            </div>
+                        </div>
+                        <!-- .. -->
+                    </div>
+                    <div class="col-md-4 price-details">
+                        <div>
+                            <h5><b>PRICE DETAILS</b></h5>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col" style="padding-left:0;">Price(4 items)</div>
+                            <div class="col text-right">&#8377;353,918 </div>
+                        </div>
+                        <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                            <div class="col" style="padding-left:0;">Delivery Charge</div>
+                            <div class="col text-right">&#8377;50 </div>
+                        </div>
+                        <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                            <div class="col">TOTAL PRICE</div>
+                            <div class="col text-right">&#8377;353,918 </div>
+                        </div>
+                        <button class="btn btn-success"><b>CHECKOUT</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
