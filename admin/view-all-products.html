@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-shop</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://static.vecteezy.com/system/resources/previews/005/100/207/original/shoping-bag-icon-free-vector.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="...">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="../stylesheet/slidebar.css">
+    <!-- sidebar -->
+    <section>
+        <div class="container slidebar add" id="slidebar">
+            <div class="brand">
+                <h3><b>E-shop</b></h3>
+                <a href="#" id="toggle"><i class="bi bi-list"></i></a>
+            </div>
+            <div>
+                <img class="user-img"
+                    src="https://static.vecteezy.com/system/resources/previews/005/100/207/original/shoping-bag-icon-free-vector.jpg"
+                    alt="">
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#"><i class="bi bi-house-door-fill"></i><span>DashBoard</span></a></li>
+                    <li><a href="#"><i class="bi bi-person-fill"></i><span>New Product</span></a></li>
+                    <li><a href="#"><i class="bi bi-box-fill"></i><span>Products</span></a></li>
+                    <li><a href="#"><i class="bi bi-front"></i><span>Categories</span></a></li>
+                    <li><a href="#"><i class="bi bi-cart"></i><span>Order</span></a></li>
+                    <li><a href="../admin/all-users.html"><i class="bi bi-people"></i><span>Customers</span></a></li>
+                </ul>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="#"><i class="bi bi-box-arrow-in-right"></i><span>Log Out</span></a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <script src="../javaascript/script.js"></script>
+    </section>
+    <section>
+        <link rel="stylesheet" href="../stylesheet/view-all-product.css">
+        <div class="user-list ">
+            <div class="row pl-3">
+                <table class="table" id="productsTable">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">sl.No</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Image</th>
+                            <th scope="col">&#8377; Price</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody">
+                    <!-- prod1 -->
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Apple iPhone 14 (128 GB)-(Product) RED</td>
+                            <td>Mobile phone</td>
+                            <td class="prod-discription">A computer is a fast-thinking machine that stores and processes information, communicates with you through input and output devices, connects to the internet, and runs programs. It needs electricity, can display information on a screen, and comes in different sizes, from portable laptops to desktops.</td>
+                            <td><img class="prod-img" src="https://m.media-amazon.com/images/I/31OylC+7FrL._SX342_SY445_.jpg"></td>
+                            <td>61,999</td>
+                            <td>
+                                <a href="/admin/edit-product?id={{this._id}}" class="btn btn-success">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                                    </svg>
+                                </a>
+                                <a href="/admin/delete-product?id={{this._id}}" class="btn btn-danger"
+                                    onclick="return confirm('Do you want to delete {{this.Name}}')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/>
+                                    </svg>
+                                </a>
+                            </td>
+                        </tr>
+                        <!-- prod2 -->
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Apple iPhone 14 (128 GB)-(Product) RED</td>
+                            <td>Mobile phone</td>
+                            <td class="prod-discription">A computer is a fast-thinking machine that stores and processes information, communicates with you through input and output devices, connects to the internet, and runs programs. It needs electricity, can display information on a screen, and comes in different sizes, from portable laptops to desktops.</td>
+                            <td><img class="prod-img" src="https://m.media-amazon.com/images/I/31OylC+7FrL._SX342_SY445_.jpg"></td>
+                            <td>61,999</td>
+                            <td>
+                                <a href="/admin/edit-product?id={{this._id}}" class="btn btn-success">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                                    </svg>
+                                </a>
+                                <a href="/admin/delete-product?id={{this._id}}" class="btn btn-danger"
+                                    onclick="return confirm('Do you want to delete {{this.Name}}')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/>
+                                    </svg>
+                                </a>
+                            </td>
+                        </tr>
+                        <!-- prod2 -->
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Apple iPhone 14 (128 GB)-(Product) RED</td>
+                            <td>Mobile phone</td>
+                            <td class="prod-discription">A computer is a fast-thinking machine that stores and processes information, communicates with you through input and output devices, connects to the internet, and runs programs. It needs electricity, can display information on a screen, and comes in different sizes, from portable laptops to desktops.</td>
+                            <td><img class="prod-img" src="https://m.media-amazon.com/images/I/31OylC+7FrL._SX342_SY445_.jpg"></td>
+                            <td>61,999</td>
+                            <td>
+                                <a href="/admin/edit-product?id={{this._id}}" class="btn btn-success">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                                    </svg>
+                                </a>
+                                <a href="/admin/delete-product?id={{this._id}}" class="btn btn-danger"
+                                    onclick="return confirm('Do you want to delete {{this.Name}}')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/>
+                                    </svg>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script>
+            // JavaScript to display only the first 10 words using class
+            var elements = document.getElementsByClassName("prod-discription");
+        
+            for (var i = 0; i < elements.length; i++) {
+              var fullText = elements[i].textContent;
+              var trimmedText = fullText.split(/\s+/).slice(0, 10).join(" ");
+              elements[i].textContent = trimmedText + '...';
+            }
+          </script>
+    </section>
+    <!-- javascript script files -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

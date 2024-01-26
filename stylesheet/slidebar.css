@@ -8,12 +8,8 @@ body{
 	display: flex;
 	width: 100%;
 	height: auto;
-	background-image: url('/img/win4.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
-.container{
+.slidebar{
 	display: flex;
 	flex-direction: column;
 	width: 200px;
@@ -27,7 +23,7 @@ body{
     backdrop-filter: blur( 30px );
     -webkit-backdrop-filter: blur( 3px );
 }
-.container .brand{
+.slidebar .brand{
 	display: flex;
 	width: 100%;
 	height: 40px;
@@ -36,17 +32,17 @@ body{
 	align-items: center;
 	justify-content: space-between;
 }
-.container .brand h3{
+.slidebar .brand h3{
 	font-weight: 300;
 	font-size: 20px;
 	color: #fff;
 }
 
-.container .brand a i{
+.slidebar .brand a i{
 	color: #fff;
 	font-size: 30px;
 }
-.container .navbar {
+.slidebar .navbar {
 	display: flex;
 	width: 90%;
 	height: auto;
@@ -55,7 +51,7 @@ body{
 	justify-content: center;
 }
 
-.container .navbar ul{
+.slidebar .navbar ul{
 	list-style-type: none;
 	display: flex;
 	flex-direction: column;
@@ -64,12 +60,12 @@ body{
 	align-items: flex-start;
 	justify-content: center;
 }
-.container .navbar ul li{
+.slidebar .navbar ul li{
 	height: 40px;
 	width: 100%;
 	margin: 5px 0;
 }
-.container .navbar ul li a{
+.slidebar .navbar ul li a{
 	display: flex;
 	width: 100%;
 	height: 100%;
@@ -81,14 +77,14 @@ body{
 .add .navbar:nth-child(4) {
 	margin: 0;
 }
-.container .navbar ul li a {
+.slidebar .navbar ul li a {
 	color: #fff;
 }
-.container .navbar ul li a span{
+.slidebar .navbar ul li a span{
 	font-size: 14px;
 	font-weight: 300;
 }
-.container .navbar ul li a i{
+.slidebar .navbar ul li a i{
 	display: flex;
 	font-size: 20px;
 	margin: 0 15px;
@@ -109,36 +105,36 @@ body{
 	height: 100px;
 	border-radius: 50%;
 }
-.container .user .name{
+.slidebar .user .name{
     display: flex;
     flex-direction: column;
 }
-.container .user .name h5{
+.slidebar .user .name h5{
 	color: #fff;
 	font-size: 12px;
 	
 }
-.container .user .name span{
+.slidebar .user .name span{
 	color: #fff;
 	font-size: 10px;
 }
-.container.active{
+.slidebar.active{
 	width: 70px;
 }
-.container.active .brand{
+.slidebar.active .brand{
 	justify-content: center;
 }
-.container.active .navbar ul{
+.slidebar.active .navbar ul{
 	width: 90%;
 }
-.container.active .user{
+.slidebar.active .user{
 	width: 80%;
 	height: 100%;
 }
-.container.active .navbar ul li a{
+.slidebar.active .navbar ul li a{
 	justify-content: center;
 }
-.container.active .brand .logo,.container.active .brand h3,.container.active .navbar ul li a span,.container.active .user .name{
+.slidebar.active .brand .logo,.slidebar.active .brand h3,.slidebar.active .navbar ul li a span,.slidebar.active .user .name{
 	display: none;
 }
 .navbar{

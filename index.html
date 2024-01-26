@@ -137,9 +137,9 @@
     </div>
   </section>
   <!------ featured product ------>
-  <section>
+  <section class="featured-prod">
     <div>
-      <h5 class="card-title text-center"><b>fearuted products</b></h5>
+      <h4 class="pt-3 card-title text-center"><b>featured products</b></h4>
       <div class="container">
         <div class="row">
           <div class="col-md-3 mb-4">
@@ -201,12 +201,45 @@
             </div>
           </div>
         </div>
+        <div class="text-right mb-4">
+          <a href="/view-all-product"><b>View all products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg></b>
+        </a>
+        </div>
       </div>
     </div>
   </section>
- <!-- Footer Section -->
+
   <section>
     <footer class="bg-dark text-light ">
+      <!----------- contact form------------------->
+      <div class="container pt-4">
+        <h5 class="text-center"><b>CONTACT US</b></h5>
+        <form>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault01">First name</label>
+              <input type="text" class="form-control" id="validationDefault01" placeholder="Enter First name..." required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault02">Last name</label>
+              <input type="text" class="form-control" id="validationDefault02" placeholder="Enter Last name..." required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefaultUsername">Email</label>
+                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Enter Email..." aria-describedby="inputGroupPrepend2" required>
+            </div>
+          </div>
+          <div class="pb-2">
+            <label for="validationDefaultUsername">Message</label>
+            <textarea class="form-control" placeholder="Enter Your Message..."></textarea>
+          </div>
+          <a class="btn btn-primary text-center" type="submit">Submit form</a>
+        </form>
+      </div>
+      <!---->
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center py-2">

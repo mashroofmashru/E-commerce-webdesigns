@@ -19,56 +19,54 @@
 </head>
 
 <body>
-    <section>
-        <div class="header">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <img class="header-logo navbar-brand" src="../images/Logo.png" alt="">
-                    <div>
-                        <form class="d-flex">
-                            <input class="form-control me-2 Search-rounded" type="search" placeholder="Search"
-                                aria-label="Search">
-                        </form>
-                    </div>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item ml-3">
-                                <a class="nav-link active" aria-current="page" href="../../Ecommerce/index.html"><b>Home</b></a>
-                            </li>
-                            <li class="nav-item ml-3">
-                                <a class="nav-link active" href="#"><b>Categories</b></a>
-                            </li>
-                            <li class="nav-item ml-3">
-                                <a class="nav-link active" href="#"><b>Cart</b></a>
-                            </li>
-                            <li class="nav-item ml-3">
-                                <a class="nav-link active" href="#"><b>Orders</b></a>
-                            </li>
-                        </ul>
-                        <div class="nav-item ml-3">
-                            <a type="button" class="profile-dropdown" data-bs-toggle="dropdown">
-                                <img class=" profile-dropdown-img"
-                                    src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-social-media-user-vector-default-avatar-profile-icon-social-media-user-vector-portrait-176194876.jpg"
-                                    alt="image">
-                            </a>
-                            <div class="dropdown">
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">My Profile</a></li>
-                                    <li><a class="dropdown-item" href="../user/user-login.html">LogIn</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+    <!-------- header -------->
+  <section>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img class="header-logo navbar-brand" src="../images/Logo.png" alt="">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2 Search-rounded" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item ml-3">
+                <a class="nav-link active nav-txt" aria-current="page" href="../index.html"><b>Home</b></a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link active nav-txt" href="#"><b>Categories</b></a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link active nav-txt" href="../user/cart.html"><b>Cart</b></a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link active nav-txt" href="#"><b>Orders</b></a>
+              </li>
+            </ul>
+            <div class="nav-item ml-3">
+              <a type="button" class="profile-dropdown" data-toggle="dropdown">
+                <img class=" profile-dropdown-img"
+                  src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-social-media-user-vector-default-avatar-profile-icon-social-media-user-vector-portrait-176194876.jpg"
+                  alt="image">
+              </a>
+              <div class="dropdown">
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">My Profile</a></li>
+                  <li><a class="dropdown-item" href="../user/user-login.html">LogIn</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </nav>
+    </div>
+  </section>
     <!-- cart items -->
-    <section>
+    <section class="cart-items">
         <div class="row">
             <div class="card mt-1">
                 <div class="row">
@@ -76,7 +74,7 @@
                         <div class="title">
                             <div class="row">
                                 <div class="col">
-                                    <h4><b>Shopping Cart</b></h4>
+                                    <h4><b>My cart(4)</b></h4>
                                 </div>
                                 <div class="col align-self-center text-right text-muted">3 items</div>
                             </div>
