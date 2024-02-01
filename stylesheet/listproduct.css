@@ -1,0 +1,66 @@
+.body {
+    background: #ffffff;
+    min-height: 100vh;
+    vertical-align: middle;
+}
+
+.Search-rounded {
+    border-radius: 12rem;
+    height: 30px;
+    width: 150px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+}
+
+.profile-dropdown {
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.profile-dropdown-img {
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    width: 37px;
+    border-width: 0;
+    vertical-align: bottom;
+}
+
+.nav-txt {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+.card-img-top {
+    height: 234px;
+}
+
+.card {
+    border: 0;
+}
+
+.prod-name {
+    text-decoration: none;
+    color: #000000;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.header-logo {
+    height: 45px;
+    width: auto;
+}
+
+.page-head{
+    color: #979797c4;
+}
