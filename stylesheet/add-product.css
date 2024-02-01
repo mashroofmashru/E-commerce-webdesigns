@@ -1,0 +1,17 @@
+.add-product{
+    width: 100%;
+    margin: 2rem;
+    margin-top: 2rem;
+    height: 70vh;
+}
+
+.page-head a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#prod-Discription{
+    width: 100%;
+    min-height: 150px;
+}
+
