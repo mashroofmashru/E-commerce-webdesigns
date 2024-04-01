@@ -20,8 +20,8 @@
 
 <body>
   <!-- stylesheet link -->
-  <link rel="stylesheet" href="../stylesheet/slidebar.css">
-  <link rel="stylesheet" href="../stylesheet/add-product.css">
+  <link rel="stylesheet" href="stylesheet/slidebar.css">
+  <link rel="stylesheet" href="stylesheet/add-product.css">
   <!-- sidebar -->
   <section>
     <div class="container slidebar add" id="slidebar">
@@ -36,12 +36,12 @@
       </div>
       <div class="navbar">
         <ul>
-          <li><a href="#"><i class="bi bi-house-door-fill"></i><span>DashBoard</span></a></li>
-          <li><a href="#"><i class="bi bi-person-fill"></i><span>New Product</span></a></li>
-          <li><a href="#"><i class="bi bi-box-fill"></i><span>Products</span></a></li>
+          <li><a href="admin-home.html"><i class="bi bi-house-door-fill"></i><span>DashBoard</span></a></li>
+          <li><a href="admin-add-product.html"><i class="bi bi-person-fill"></i><span>New Product</span></a></li>
+          <li><a href="user-view-all-products.html"><i class="bi bi-box-fill"></i><span>Products</span></a></li>
           <li><a href="#"><i class="bi bi-front"></i><span>Categories</span></a></li>
           <li><a href="#"><i class="bi bi-cart"></i><span>Order</span></a></li>
-          <li><a href="#"><i class="bi bi-people"></i><span>Customers</span></a></li>
+          <li><a href="admin-all-users.html"><i class="bi bi-people"></i><span>Customers</span></a></li>
         </ul>
       </div>
 
@@ -52,7 +52,7 @@
       </div>
     </div>
     </div>
-    <script src="../javaascript/script.js"></script>
+    <script src="javaascript/script.js"></script>
   </section>
   <!-- input form -->
   <section class="add-product ">
@@ -87,17 +87,18 @@
             <label for="prod-Price">price</label>
             <input type="text" name="Price" class="form-control" id="prod-Price" placeholder="3000&#8377; ">
           </div>
-        <div class="form-group col-md-6">
-          <label for="prodImage">Product Image</label>
-          <input type="file" name="Image" class="form-control">
+          <div class="form-group col-md-6">
+            <label for="prodImage">Product Image</label>
+            <input type="file" name="Image" class="form-control">
+          </div>
         </div>
-    </div>
-    <div class="form-group">
-      <label for="prod-Discripton">Description</label>
-      <textarea type="text" name="Description" class="form-control" id="prod-Discription" placeholder="something about this product....."></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Sign in</button>
-    </form>
+        <div class="form-group">
+          <label for="prod-Discripton">Description</label>
+          <textarea type="text" name="Description" class="form-control" id="prod-Discription"
+            placeholder="something about this product....."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
     </div>
   </section>
   <!-- javascript script files -->

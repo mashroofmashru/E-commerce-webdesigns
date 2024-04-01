@@ -26,20 +26,21 @@
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <img class="header-logo navbar-brand" src="../Ecommerce/images/Logo.png" alt="">
+          <!-- <a class="navbar-brand nav-txt" href="#"><b>E-shop</b></a> -->
+          <img class="header-logo navbar-brand" src="images/Logo.png" alt="">
           <form class="form-inline">
             <input class="form-control mr-sm-2 Search-rounded" type="search" placeholder="Search" aria-label="Search">
           </form>
           <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item ml-3">
-                <a class="nav-link active nav-txt" aria-current="page" href="#"><b>Home</b></a>
+                <a class="nav-link active nav-txt" aria-current="page" href="index.html"><b>Home</b></a>
               </li>
               <li class="nav-item ml-3">
                 <a class="nav-link active nav-txt" href="#"><b>Categories</b></a>
               </li>
               <li class="nav-item ml-3">
-                <a class="nav-link active nav-txt" href="../Ecommerce/user/cart.html"><b>Cart</b></a>
+                <a class="nav-link active nav-txt" href="user-cart.html"><b>Cart</b></a>
               </li>
               <li class="nav-item ml-3">
                 <a class="nav-link active nav-txt" href="#"><b>Orders</b></a>
@@ -54,7 +55,7 @@
               <div class="dropdown">
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">My Profile</a></li>
-                  <li><a class="dropdown-item" href="../Ecommerce/user/user-login.html">LogIn</a></li>
+                  <li><a class="dropdown-item" href="user-login.html">LogIn</a></li>
                 </ul>
               </div>
             </div>
@@ -137,9 +138,9 @@
     </div>
   </section>
   <!------ featured product ------>
-  <section class="featured-prod">
-    <div>
-      <h4 class="pt-3 card-title text-center"><b>featured products</b></h4>
+  <section>
+    <div class="container pt-5">
+      <h5 class="card-title text-center"><b>fearuted products</b></h5>
       <div class="container">
         <div class="row">
           <div class="col-md-3 mb-4">
@@ -151,7 +152,7 @@
                   <span class="featured-prod-name">Apple iPhone 14 (128 GB)-(Product) RED</span>
                 </a>
                 <div>
-                  <span class="sale-price font-semibold">&#8377; 61,999</span>
+                  <span class="sale-price font-semibold">₹61,999</span>
                 </div>
               </div>
             </div>
@@ -166,7 +167,7 @@
                   <span class="featured-prod-name">Samsung Galaxy S22 Ultra 5G (12GB,256GB)</span>
                 </a>
                 <div>
-                  <span class="sale-price font-semibold">&#8377; 84,999</span>
+                  <span class="sale-price font-semibold">₹84,999</span>
                 </div>
               </div>
             </div>
@@ -181,7 +182,7 @@
                   <span class="featured-prod-name">MSI Titan GT77 HX, Intel 13th Gen</span>
                 </a>
                 <div>
-                  <span class="sale-price font-semibold">&#8377; 1,23,990</span>
+                  <span class="sale-price font-semibold">₹1,23,990</span>
                 </div>
               </div>
             </div>
@@ -195,23 +196,16 @@
                   <span class="featured-prod-name">BANG & OLUFSEN H95 Bluetooth</span>
                 </a>
                 <div>
-                  <span class="sale-price font-semibold">&#8377; 1,38,730</span>
+                  <span class="sale-price font-semibold">₹1,38,730</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="text-right mb-4">
-          <a href="/view-all-product"><b>View all products
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-          </svg></b>
-        </a>
-        </div>
       </div>
     </div>
   </section>
-
+ <!-- Footer Section -->
   <section>
     <footer class="bg-dark text-light ">
       <!----------- contact form------------------->
@@ -252,6 +246,7 @@
           </div>
         </div>
     </footer>
+
   </section>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
