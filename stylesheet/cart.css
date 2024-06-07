@@ -30,14 +30,13 @@ body{
 .price-details{
     background-color: #ddd;
     border-radius: 1rem;
-    border-bottom-right-radius: 1rem;
     padding: 4vh;
     color: rgb(65, 65, 65);
 }
-@media(max-width:767px){
+@media(min-width:767px){
     .price-details{
     border-top-right-radius: unset;
-    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: unset;
     }
 }
 .price-details .col-2{

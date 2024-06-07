@@ -12,63 +12,63 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
     <link rel="stylesheet" href="stylesheet/style.css">
     <link rel="stylesheet" href="stylesheet/cart.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="...">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="...">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <!-------- header -------->
-    <section>
-        <div class="header">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <img class="header-logo navbar-brand" src="images/Logo.png" alt="">
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2 Search-rounded" type="search" placeholder="Search"
-                            aria-label="Search">
-                    </form>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item ml-3">
-                                <a class="nav-link active nav-txt" aria-current="page" href="index.html"><b>Home</b></a>
-                            </li>
-                            <li class="nav-item ml-3">
-                                <a class="nav-link active nav-txt" href="#"><b>Categories</b></a>
-                            </li>
-                            <li class="nav-item ml-3">
-                                <a class="nav-link active nav-txt" href="#"><b>Cart</b></a>
-                            </li>
-                            <li class="nav-item ml-3">
-                                <a class="nav-link active nav-txt" href="user-order.html"><b>Orders</b></a>
-                            </li>
-                        </ul>
-                        <div class="nav-item ml-3">
-                            <a type="button" class="profile-dropdown" data-toggle="dropdown">
-                                <img class=" profile-dropdown-img"
-                                    src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-social-media-user-vector-default-avatar-profile-icon-social-media-user-vector-portrait-176194876.jpg"
-                                    alt="image">
-                            </a>
-                            <div class="dropdown">
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">My Profile</a></li>
-                                    <li><a class="dropdown-item" href="user-login.html">LogIn</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+  <section>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img class="header-logo navbar-brand" src="images/Logo.png" alt="">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2 Search-rounded" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item ml-3">
+                <a class="nav-link active nav-txt" aria-current="page" href="index.html"><b>Home</b></a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link active nav-txt" href="#"><b>Categories</b></a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link active nav-txt" href="/user-cart.html"><b>Cart</b></a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link active nav-txt" href="/user-order.html"><b>Orders</b></a>
+              </li>
+            </ul>
+            <div class="nav-item ml-3">
+              <a type="button" class="profile-dropdown" data-toggle="dropdown">
+                <img class=" profile-dropdown-img"
+                  src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-social-media-user-vector-default-avatar-profile-icon-social-media-user-vector-portrait-176194876.jpg"
+                  alt="image">
+              </a>
+              <div class="dropdown">
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">My Profile</a></li>
+                  <li><a class="dropdown-item" href="user-login.html">LogIn</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </nav>
+    </div>
+  </section>
     <!-- cart items -->
     <section class="cart-items">
         <div class="row">
-            <div class="card my-4">
+            <div class="card mt-1">
                 <div class="row">
                     <div class="col-md-8 cart">
                         <div class="title">
@@ -152,25 +152,6 @@
                             </div>
                         </div>
                         <!-- .. -->
-                    </div>
-                    <div class="col-md-4 price-details">
-                        <div>
-                            <h5><b>PRICE DETAILS</b></h5>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col" style="padding-left:0;">Price(4 items)</div>
-                            <div class="col text-right">&#8377;353,918 </div>
-                        </div>
-                        <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
-                            <div class="col" style="padding-left:0;">Delivery Charge</div>
-                            <div class="col text-right">&#8377;50 </div>
-                        </div>
-                        <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
-                            <div class="col">TOTAL PRICE</div>
-                            <div class="col text-right">&#8377;353,918 </div>
-                        </div>
-                        <button class="btn btn-success"><b>CHECKOUT</b></button>
                     </div>
                 </div>
             </div>

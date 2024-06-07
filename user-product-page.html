@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-shop</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://static.vecteezy.com/system/resources/previews/005/100/207/original/shoping-bag-icon-free-vector.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="...">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-------- header -------->
+    <section>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- <a class="navbar-brand nav-txt" href="#"><b>E-shop</b></a> -->
+                    <img class="header-logo navbar-brand" src="images/Logo.png" alt="">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2 Search-rounded" type="search" placeholder="Search"
+                            aria-label="Search">
+                    </form>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ml-3">
+                                <a class="nav-link active nav-txt" aria-current="page" href="index.html"><b>Home</b></a>
+                            </li>
+                            <li class="nav-item ml-3">
+                                <a class="nav-link active nav-txt" href="#"><b>Categories</b></a>
+                            </li>
+                            <li class="nav-item ml-3">
+                                <a class="nav-link active nav-txt" href="user-cart.html"><b>Cart</b></a>
+                            </li>
+                            <li class="nav-item ml-3">
+                                <a class="nav-link active nav-txt" href="#"><b>Orders</b></a>
+                            </li>
+                        </ul>
+                        <div class="nav-item ml-3">
+                            <a type="button" class="profile-dropdown" data-toggle="dropdown">
+                                <img class=" profile-dropdown-img"
+                                    src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-social-media-user-vector-default-avatar-profile-icon-social-media-user-vector-portrait-176194876.jpg"
+                                    alt="image">
+                            </a>
+                            <div class="dropdown">
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                    <li><a class="dropdown-item" href="user-login.html">LogIn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- product detail -->
+    <section>
+        <link rel="stylesheet" href="stylesheet/product-page.css">
+        <div class="container">
+            <div class="row my-5">
+                <div class="prod-img col-md-5 border-right">
+                    <img class="img-fluid prod-img" src="https://m.media-amazon.com/images/I/31OylC+7FrL._SX342_SY445_.jpg" alt="product-image">
+                </div>
+                <div class="product-details col-md-6 m-4 ">
+                    <h3 class="my-2">Apple iPhone 14 (128 GB)-(Product) RED</h3>
+                    <p class="my-2"><b>MobilePhone</b></p>
+                    <span>
+                        <h4 class="my-2 d-inline"><b>&#8377;61,999</b></h4>
+                        <p class="d-inline">&#8377<del>70000</del></p>
+                    </span>
+                    <p class="text-danger">Hurry! Only 3 left in Stock</p>
+                    <p class="my-4">
+                        <b>Description:</b><br>
+                        Stay productive and improve your performance with the Super Retina XDR display that is comfortable for the eyes. 
+                        Powered with a 12 MP main camera, enjoy taking pictures with friends and family. 
+                        With a built-in rechargeable lithium-ion battery and equipped with the MagSafe wireless charging,
+                         you can charge your phone quickly up to 50 % in just half an hour by using a 20 W adapter. 
+                         This phone is loaded with a horde of exciting features such as Siri, face ID, barometer, 
+                         ambient light sensors etc., and is also resistant to dust and water as it is IP68 rated.>   
+                    </p>
+                    <div class="row">
+                        <button type="button" class="btn btn-primary btn-lg col-md-5 mr-2 mt-1">Add to Cart</button>
+                        <button type="button" class="btn btn-secondary btn-lg col-md-5 mr-2 mt-1">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <section>
+        <footer class="bg-dark text-light ">
+            <!----------- contact form------------------->
+            <div class="container pt-4">
+                <h5 class="text-center"><b>CONTACT US</b></h5>
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault01">First name</label>
+                            <input type="text" class="form-control" id="validationDefault01"
+                                placeholder="Enter First name..." required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault02">Last name</label>
+                            <input type="text" class="form-control" id="validationDefault02"
+                                placeholder="Enter Last name..." required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefaultUsername">Email</label>
+                            <input type="text" class="form-control" id="validationDefaultUsername"
+                                placeholder="Enter Email..." aria-describedby="inputGroupPrepend2" required>
+                        </div>
+                    </div>
+                    <div class="pb-2">
+                        <label for="validationDefaultUsername">Message</label>
+                        <textarea class="form-control" placeholder="Enter Your Message..."></textarea>
+                    </div>
+                    <a class="btn btn-primary text-center" type="submit">Submit form</a>
+                </form>
+            </div>
+            <!---->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center py-2">
+                        <!-- socialmedia icons -->
+                        <a href="https://www.linkedin.com/in/mashroof-mashru-84615a290/" class="text-light"><i
+                                class="fab fa-linkedin fa-lg mr-2"></i></a>
+                        <a href="https://github.com/mashroofmashru" class="text-light"><i
+                                class="fab fa-github fa-lg mr-2"></i></a>
+                        <a href="https://twitter.com/" class="text-light"><i class="fab fa-twitter fa-lg"></i></a>
+                        <!-- copyright -->
+                        <p class="mb-0 text-center">&copy; 2023 Mashroofmashru. All rights reserved.</p>
+                    </div>
+                </div>
+        </footer>
+
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
